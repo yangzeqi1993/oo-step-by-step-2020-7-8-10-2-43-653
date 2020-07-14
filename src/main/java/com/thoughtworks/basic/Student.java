@@ -4,12 +4,9 @@ public class Student extends Person {
 
     private Klass classNumber;
 
-    public Student(String name, int age) {
+    public Student(String name, int age, Klass classNumber) {
         super(name, age);
-    }
-
-    public String introduce (){
-        return introduce();
+        this.classNumber = classNumber;
     }
 
     public Klass getClassNumber() {
@@ -18,5 +15,10 @@ public class Student extends Person {
 
     public void setClassNumber(Klass classNumber) {
         this.classNumber = classNumber;
+    }
+
+    @Override
+    public String introduce (){
+        return super.introduce() + " I am a Student of Class " + this.getClassNumber().getNumber() + ".";
     }
 }
