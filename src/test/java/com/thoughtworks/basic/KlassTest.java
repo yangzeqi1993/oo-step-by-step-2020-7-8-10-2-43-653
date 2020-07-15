@@ -4,14 +4,15 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class TeacherTest {
+public class KlassTest {
     @Test
-    public void teacher_test() {
+    public void klass_test() {
         //given
-        String name = "Matt";
-        int age = 30;
+        String name = "Tom";
+        int age = 21;
         String job = "Teacher";
         Teacher teacher = new Teacher(name, age, job);
+        //Klass
 
         //when
         String introduce = teacher.introduce();

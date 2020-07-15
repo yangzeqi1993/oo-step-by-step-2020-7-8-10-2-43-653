@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class StudentTest {
     @Test
-    public void hello_world_test() {
+    public void student_test() {
         //given
         String name = "Tom";
         int age = 21;

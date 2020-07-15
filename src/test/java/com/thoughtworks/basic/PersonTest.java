@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class PersonTest {
 
     @Test
-    public void hello_world_test() {
+    public void person_test() {
         //given
         String name = "Tom";
         int age = 21;
